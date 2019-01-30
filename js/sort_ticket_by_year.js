@@ -64,7 +64,7 @@
    
             if (yearMatch.length == 0) {
    
-              $('#ticket-table-body').html(`<tr><td colspan="4" align="center"><h4 class="text-primary text-center font-weight-medium">Inget ticket matchar med året ${year}</h4></td></tr>`);
+              $('#ticket-table-body').html(`<tr><td colspan="4" align="center"><h4 class="text-primary text-center font-weight-medium">Ingen ticket matchar med året ${year}</h4></td></tr>`);
    
    
             } else {// Adds the matched tickets to the table

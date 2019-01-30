@@ -360,7 +360,7 @@
                         </th>
                       </thead>
                       <tbody id="ticket-table-body">
-
+                      <tr><td colspan="4"><h4 class="text-primary text-center font-weight-medium">Inget år är valt...</h4></td></tr>
                       </tbody>
                     </table>
                   </div>
