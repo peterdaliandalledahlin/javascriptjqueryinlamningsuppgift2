@@ -303,7 +303,7 @@
                             </div>
                             <div class="col-6 pl-0">
                               <p class="mb-0">Offline</p>
-                              <h2 id="offline">45,324</h2>
+                              <h2>45,324</h2>
                             </div>
                           </div>
                         </div>
@@ -314,7 +314,7 @@
                             </div>
                             <div class="col-6 pl-0">
                               <p class="mb-0">Online</p>
-                              <h2 id="online">12,236</h2>
+                              <h2>12,236</h2>
                             </div>
                           </div>
                         </div>
@@ -338,7 +338,7 @@
                     <div class="dropdown mb-3 mb-md-0">
                       <button class="btn btn-sm btn-outline-light dropdown-toggle text-dark" type="button" id="dropdownMenuDate1"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Year
+                        Välj ett år
                       </button>
                       <div id="dropdown-menu" class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuDate1">
 
