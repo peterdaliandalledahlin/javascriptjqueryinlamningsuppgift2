@@ -170,7 +170,7 @@ $(function(){
             request.open("GET", "https://fe18.azurewebsites.net/api/salesreportoverview");
             request.send();
         };//end Sales Report Overview KLAR
-
+/*
         //adds data to Tickets
         if($("#tickets").length) {
 
@@ -236,7 +236,7 @@ $(function(){
             request.send();
 
         };//end Tickets KLAR
-
+*/
         //adds data to Update
         if($("#updates").length) {
 

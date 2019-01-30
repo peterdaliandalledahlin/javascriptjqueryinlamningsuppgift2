@@ -322,7 +322,7 @@
           if(this.readyState == 4 && this.status == 200) {
           let object = JSON.parse(this.response);
           
-          $("#offline").text(`${object.offline}`);
+          //$("#offline").text(`${object.offline}`);
 
       var bar = new ProgressBar.Circle(offlineProgress, {
         color: '#000',
@@ -368,7 +368,7 @@
       });
   
       bar.text.style.fontSize = '1rem';
-      bar.animate(.64); // Number from 0.0 to 1.0
+      bar.animate(object.offline); // Number from 0.0 to 1.0
     }
         
   };
@@ -385,7 +385,7 @@
           if(this.readyState == 4 && this.status == 200) {
           let object = JSON.parse(this.response);
           
-          $("#online").text(`${object.online}`);
+          //$("#online").text(`${object.online}`);
 
       var bar = new ProgressBar.Circle(onlineProgress, {
         color: '#000',
@@ -431,7 +431,7 @@
       });
   
       bar.text.style.fontSize = '1rem';
-      bar.animate(.84); // Number from 0.0 to 1.0
+      bar.animate(object.online); // Number from 0.0 to 1.0
     }
         
   };

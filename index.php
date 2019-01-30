@@ -303,7 +303,7 @@
                             </div>
                             <div class="col-6 pl-0">
                               <p class="mb-0">Offline</p>
-                              <h2 id="offline"></h2>
+                              <h2 id="offline">45,324</h2>
                             </div>
                           </div>
                         </div>
@@ -314,7 +314,7 @@
                             </div>
                             <div class="col-6 pl-0">
                               <p class="mb-0">Online</p>
-                              <h2 id="online"></h2>
+                              <h2 id="online">12,236</h2>
                             </div>
                           </div>
                         </div>
@@ -359,7 +359,7 @@
                           Projects
                         </th>
                       </thead>
-                      <tbody>
+                      <tbody id="ticket-table-body">
 
                       </tbody>
                     </table>
@@ -442,5 +442,6 @@
   <script src="js/helpers.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/sort_ticket_by_year.js"></script>
 </body>
 </html>
